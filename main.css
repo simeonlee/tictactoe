@@ -1,0 +1,26 @@
+* {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.row {
+  clear: left;
+}
+
+.cell {
+  background-color: rgba(228, 241, 254, 0.7);
+  width: 50px;
+  height: 50px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-1 .cell-2,
+.row-2 .cell-1,
+.row-2 .cell-3,
+.row-3 .cell-2 {
+  background-color: rgba(25, 181, 254, 0.7);
+}
